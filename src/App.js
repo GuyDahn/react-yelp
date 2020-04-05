@@ -89,14 +89,12 @@ class App extends Component {
       <div className="container-fluid">
         <ReactiveBase
           app="yelp-app"
-          mapKey="AIzaSyBQdVcKCe0q_vOBDUvJYpzwGpt_d_uTj4Q"
+          mapKey="AIzaSyB3rrnbigPCfRCvdPE7wdiEx-1ahST9_wk"
           credentials="hkXdk3vcA:a32683f3-c8ad-45db-8c86-2ac2c0f45e0c"
           type="yelp-app"
         >
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">
-              Yelp Search
-            </a>
+            <img src='Belp-logo.png' alt='logo'/>
 
             <button
               className="navbar-toggler"
@@ -132,29 +130,13 @@ class App extends Component {
                   )}
                 />
               </div>
-              <div className="links">
-                <a
-                  target="_blank"
-                  href="https://github.com/appbaseio/reactivesearch"
-                  className="btn link"
-                >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </a>
-                <a
-                  target="_blank"
-                  href="https://opensource.appbase.io/reactive-manual/"
-                  className="btn link"
-                >
-                  <i className="fa fa-book" aria-hidden="true" /> Documentation
-                </a>
-              </div>
             </div>
           </nav>
 
           <div className="row">
             <div className="col-8 col-lg-3 col-md-3 col-sm-4 scroll">
               <div className="box">
-                <MultiList
+                {/* <MultiList
                   dataField="currency.keyword"
                   title="Currency Options"
                   componentId="currencyReactor"
@@ -182,9 +164,8 @@ class App extends Component {
                       {error}
                     </div>
                   )}
-                />
+                /> */}
               </div>
-
               <div className="box">
                 <MultiList
                   dataField="cuisine.keyword"
