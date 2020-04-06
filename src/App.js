@@ -358,12 +358,12 @@ class App extends Component {
                 dataField="location"
                 componentId="maps"
                 defaultZoom={13}
-                defaultCenter={{ lat: 14.55436, lng: -85.76 }}
+                defaultCenter={{ lat: 32.0853, lng: 34.7818 }}
                 historicalData={true}
                 setMarkerCluster={true}
                 showMapStyles={false}
                 showSearchAsMove={false}
-                defaultMapStyle="Light Monochrome"
+                defaultMapStyle="Blue Essence"
                 onPopoverClick={this.onPopoverClick}
                 autoCenter={true}
                 size={100}
